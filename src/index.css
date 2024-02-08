@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.22),
+            rgba(0, 0, 0, 0.93)),
+        url("https://picsum.photos/1920/1080");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-section {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.styled-input {
+    padding: 15px 15px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.sign-btn {
+    max-width: fit-content;
+    margin: 0px auto;
+    padding: 15px 60px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    background: crimson;
+    color: white;
+    cursor: pointer;
+}
