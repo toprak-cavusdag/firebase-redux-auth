@@ -40,6 +40,14 @@ body {
     border-bottom: 1px solid black;
 }
 
+.desc-router {
+    text-align: center;
+}
+
+.desc-router a {
+    color: crimson;
+}
+
 .sign-btn {
     max-width: fit-content;
     margin: 0px auto;

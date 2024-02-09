@@ -45,6 +45,10 @@ const SignUp = () => {
           placeholder='your password...'
         />
 
+        <p className='desc-router'>
+          you are already a member, <a href='/sign-in'>sign in</a>
+        </p>
+
         <button type='submit' className='sign-btn'>
           Sign In
         </button>
