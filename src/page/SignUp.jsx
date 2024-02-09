@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { auth } from '../firebase';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const emailValueHandler = (e) => {
     setEmail(e.target.value);
@@ -20,6 +22,7 @@ const SignUp = () => {
       createUserWithEmailAndPassword(auth, email, password);
       setEmail('');
       setPassword('');
+      navigate('/sign-in');
     } catch (err) {
       console.log('Error from Sign Up', err);
     }
