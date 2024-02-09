@@ -50,7 +50,7 @@ const SignIn = () => {
         />
 
         <p className='desc-router'>
-          didn't you register? <a href='/sign-up'>sign up</a>
+          Are you not a member <a href='/sign-up'>sign up</a>
         </p>
 
         <button type='submit' className='sign-btn'>
