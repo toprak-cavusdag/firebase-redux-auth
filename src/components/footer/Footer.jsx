@@ -1,7 +1,8 @@
 import React from 'react';
+import './footer.css';
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return <footer className='footer'>Created by Toprak Çavuşdağ</footer>;
 };
 
 export default Footer;

@@ -11,7 +11,7 @@ const Navbar = () => {
   const userState = useSelector((state) => state.user.email);
 
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
       <div className='logo'>
         <span className='title'>
           <IoLogoFirebase /> Firebase
@@ -26,7 +26,7 @@ const Navbar = () => {
           Logout
         </button>
       )}
-    </div>
+    </nav>
   );
 };
 

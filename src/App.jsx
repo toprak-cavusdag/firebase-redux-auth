@@ -25,8 +25,8 @@ function App() {
         <Routes>
           {userState && (
             <>
-              <Route index element={<Home />} />
-              <Route path='*' element={<Home />} />
+              <Route index element={<Home user={userState} />} />
+              <Route path='*' element={<Home user={userState} />} />
             </>
           )}
           {!userState && (

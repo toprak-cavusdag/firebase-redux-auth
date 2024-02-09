@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .container {
     width: 100%;
     background-image: linear-gradient(to bottom,
@@ -49,4 +50,27 @@ body {
     background: crimson;
     color: white;
     cursor: pointer;
+}
+
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.user-profile {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: crimson;
+    border-radius: 100%;
+    font-size: 90px;
+    color: white;
 }
